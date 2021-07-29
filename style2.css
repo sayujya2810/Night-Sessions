@@ -1,0 +1,55 @@
+/* Cascading Style Sheet */
+
+/* element{
+    attribute-name: value;
+} */
+
+h1{
+    color: blue;
+    background-color: #f7dc8f;
+}
+
+p{
+    font-size: 15px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+span{
+    font-weight: 800;
+}
+
+.c1 , .c2{
+    height: 10vh;
+    margin: 2rem;
+}
+
+.c1{
+    background-color: aqua;
+    border: 2px black solid;
+
+}
+
+.c2{
+    background-color: teal;
+    
+}
+
+#d4{
+    border: 3px red dashed;
+    border-radius: 20px;
+}
+
+
+/* Units vh, px, em, rem sec, ms */
+
+#Margins{
+    background-color: blue;
+    /* margin: 10px;?    
+    margin-left: 10px;
+    margin: 10px 8px 5px 2px; */
+    margin: 10px 20px;
+
+    padding: 2rem;
+
+}
