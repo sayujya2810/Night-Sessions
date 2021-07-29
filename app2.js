@@ -75,4 +75,35 @@ for( let x = 0; x<alphabets.length;x++)
 }
 console.log(a);
 
- 
+//  DOM
+
+// querySelector()
+
+let h1 = document.querySelector("h1");
+h1.textContent = "The changed contents";
+
+
+
+// getElementById
+
+let h2 = document.getElementById("f1");
+h2.style.color = "red";
+
+// getElementByClassName()
+// getElementByTagName()
+
+let h2_2 = document.querySelector("#f1");
+h2_2.textContent = "Something random";
+
+let divs = document.querySelector(".c1");
+divs.style.color = "white";
+
+// document.querySelectorAll
+// Somebu...Fix it
+// let div2 = document.querySelectorAll("input");
+// div2.style.backgroundColor = "red";
+
+let a = document.querySelector("a");
+a.setAttribute("href","https://www.github.com");
+
+
